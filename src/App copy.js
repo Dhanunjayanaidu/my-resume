@@ -2,30 +2,11 @@ import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
-import Courses from "./Pages/Courses";
-import Search from "./Components/Search";
-import List from "./Components/List";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="courses">Courses</Link>
-        </nav>
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/courses" element={<Courses />}>
-            <Route path="search" element={<Search />} />
-            <Route path="list" element={<List />} />
-          </Route>
-        </Routes>
-      </Router>
-      <header className="App-header d-none">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Dhanunjay Naidu Maradana</h1>
         <p>UI Designer / Frontend Developer</p>
