@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+// import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Courses from "./Pages/Courses";
 import Search from "./Components/Search";

@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <>
       <section className="Intro" id="intro">
-        <h3>Intro me content will be here</h3>
+        <h3 className="display-4">Intro me content will be here</h3>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
