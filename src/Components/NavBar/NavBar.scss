@@ -1,0 +1,21 @@
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: #1f1f1f;
+    border: 1px solid #575757;
+    position: absolute;
+    right: 30px;
+    border-radius: 50px;
+    color: white;
+    top: Calc(100% - 80%);
+
+    .navbar-nav {
+      flex-direction: column;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .nav-link {
+        color: #999999;
+      }
+    }
+  }
+}
