@@ -19,28 +19,28 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">
+              <Nav.Link href="#Courses">
                 <IoHomeOutline />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#Search">
                 <LuUser2 />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#List">
                 <IoBriefcaseOutline />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#Home">
                 <LiaStreamSolid />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#Courses">
                 <LuShapes />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#Search">
                 <IoGridOutline />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#List">
                 <AiOutlineComment />
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#Courses">
                 <HiOutlineMailOpen />
               </Nav.Link>
             </Nav>

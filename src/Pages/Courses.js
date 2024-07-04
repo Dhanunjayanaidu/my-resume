@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Courses = () => {
   return (
     <>
-      <div className="Page">
+      <div className="Page" id="Courses">
         <nav>
           <Link to="/my-resume">Home</Link>
           <Link to="/my-resume/courses">Courses</Link>
