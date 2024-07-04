@@ -5,11 +5,15 @@ const Courses = () => {
   return (
     <>
       <div className="Page">
+        <nav>
+          <Link to="/my-resume">Home</Link>
+          <Link to="/my-resume/courses">Courses</Link>
+        </nav>
         <h1>You are in the Courses page!</h1>
         <h3>URL: localhost:3000/courses</h3>
         <div className="courses-nav">
-          <Link to="/courses/search">Search</Link>
-          <Link to="/courses/list">List</Link>
+          <Link to="/my-resume/courses/search">Search</Link>
+          <Link to="/my-resume/courses/list">List</Link>
         </div>
         <Outlet />
       </div>
