@@ -36,19 +36,17 @@ const Home = () => {
           <Col sm={12} md={9} lg={9} className="px-0">
             <div className="rightPanel" id="Home">
               <Parallax
-                bgImage={image1}
+                // bgImage={image1}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
                 <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Intro />
-                  </Fade>
+                  <Intro />
                 </div>
               </Parallax>
 
               <Parallax
-                bgImage={image2}
+                // bgImage={image2}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
@@ -60,7 +58,7 @@ const Home = () => {
               </Parallax>
 
               <Parallax
-                bgImage={image3}
+                // bgImage={image3}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
@@ -72,7 +70,7 @@ const Home = () => {
               </Parallax>
 
               <Parallax
-                bgImage={image1}
+                // bgImage={image1}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
@@ -84,7 +82,7 @@ const Home = () => {
               </Parallax>
 
               <Parallax
-                bgImage={image2}
+                // bgImage={image2}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
@@ -96,7 +94,7 @@ const Home = () => {
               </Parallax>
 
               <Parallax
-                bgImage={image3}
+                // bgImage={image3}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
@@ -108,7 +106,7 @@ const Home = () => {
               </Parallax>
 
               <Parallax
-                bgImage={image1}
+                // bgImage={image1}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
@@ -120,7 +118,7 @@ const Home = () => {
               </Parallax>
 
               <Parallax
-                bgImage={image1}
+                // bgImage={image1}
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >

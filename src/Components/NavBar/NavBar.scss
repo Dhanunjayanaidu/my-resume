@@ -3,7 +3,7 @@
     background-color: #1f1f1f;
     border: 1px solid #575757;
     position: absolute;
-    right: 70px;
+    right: 80px;
     border-radius: 50px;
     color: white;
     top: Calc(100% - 80%);
@@ -16,6 +16,10 @@
 
       .nav-link {
         color: #999999;
+
+        :hover {
+          color: #28e98c;
+        }
       }
     }
   }

@@ -10,7 +10,11 @@ const Sidebar = () => {
     <>
       <section className="Sidebar" id="Sidebar">
         <div className="userImg">
-          <img src={dhanunjayaNaiduMaradana} className="img-fluid" />
+          <img
+            src={dhanunjayaNaiduMaradana}
+            alt="dhanunjay react profile"
+            className="img-fluid"
+          />
         </div>
         <h1>Dhanunjaya Naidu Maradana</h1>
         <h2>UI Designer & Frontend Developer</h2>

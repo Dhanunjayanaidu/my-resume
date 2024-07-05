@@ -1,3 +1,29 @@
 .Intro {
   // background-color: yellow;
+
+  .mainTitle {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 2rem;
+    color: #ffffff;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    color: #ffffff;
+
+    .react-typewriter-text-wrap {
+      display: inline-block;
+
+      .react-typewriter-text {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #28e98c;
+      }
+    }
+  }
 }
