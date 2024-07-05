@@ -13,6 +13,7 @@ import Skills from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
 import Testimonial from "./Testimonial/Testimonial";
 import Contact from "./Contact/Contact";
+import Sidebar from "./Sidebar/Sidebar";
 
 const image1 =
   "https://fastly.picsum.photos/id/18/2500/1667.jpg?hmac=JR0Z_jRs9rssQHZJ4b7xKF82kOj8-4Ackq75D_9Wmz8";
@@ -29,21 +30,8 @@ const Home = () => {
       <NavBar />
       <Container fluid>
         <Row>
-          <Col sm={12} md={3} lg={3} className="px-0">
-            <div className="leftIntro p-5">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
+          <Col sm={12} md={3} lg={3} className="p-4">
+            <Sidebar />
           </Col>
           <Col sm={12} md={9} lg={9} className="px-0">
             <div className="rightPanel" id="Home">
@@ -52,7 +40,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Intro />
                   </Fade>
@@ -64,7 +52,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <About />
                   </Fade>
@@ -76,7 +64,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Resume />
                   </Fade>
@@ -88,7 +76,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Services />
                   </Fade>
@@ -100,7 +88,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Skills />
                   </Fade>
@@ -112,7 +100,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Portfolio />
                   </Fade>
@@ -124,7 +112,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Testimonial />
                   </Fade>
@@ -136,7 +124,7 @@ const Home = () => {
                 strength={-200}
                 blur={{ min: -30, max: 30 }}
               >
-                <div className="p-5" style={{ height: "100vh" }}>
+                <div className="innerBody">
                   <Fade bottom duration={3000}>
                     <Contact />
                   </Fade>

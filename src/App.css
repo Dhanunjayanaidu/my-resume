@@ -46,5 +46,9 @@ body {
 .leftIntro {
   background-color: #191919;
   color: #ffffff;
-  height: 100vh;
+  height: Calc(100vh - 3rem);
+  overflow: hidden;
+  border: solid 1px #555;
+  border-radius: 20px;
+  padding: 2rem;
 } 

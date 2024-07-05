@@ -1,0 +1,39 @@
+.Sidebar {
+  background-color: #191919;
+  color: #ffffff;
+  height: Calc(100vh - 3rem);
+  overflow: hidden;
+  border: solid 1px #555;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+
+  .userImg {
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      filter: grayscale(100);
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #d5d5d5;
+  }
+
+  h2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 1rem;
+    margin-top: 0px;
+    color: #d5d5d5;
+  }
+
+  p {
+    color: #959595;
+  }
+}

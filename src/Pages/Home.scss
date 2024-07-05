@@ -1,5 +1,10 @@
 .rightPanel {
   height: 100vh;
-  //   background-color: red;
   overflow-y: auto;
+
+  .innerBody {
+    background-color: rgb(0 0 0 / 90%);
+    padding: 100px 160px 100px 100px;
+    min-height: 100vh;
+  }
 }
