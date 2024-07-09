@@ -1,5 +1,8 @@
 .Intro {
   // background-color: yellow;
+  position: relative;
+  padding: 100px 160px 100px 80px;
+  min-height: 100vh;
 
   .mainTitle {
     font-size: 4.5rem;
@@ -25,5 +28,26 @@
         color: #28e98c;
       }
     }
+  }
+  .dhanunjayStamp {
+    width: 30%;
+    position: absolute;
+    right: 15%;
+    margin-top: 0%;
+    cursor: pointer;
+    animation: stampRotation 10s infinite linear;
+  }
+  /* @Keyframe */
+  @keyframes stampRotation {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .experience {
+    margin-top: 45%;
   }
 }

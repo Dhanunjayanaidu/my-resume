@@ -2,7 +2,10 @@ import React from "react";
 import "./Intro.scss";
 import { IoHomeOutline } from "react-icons/io5";
 import TypeWriterEffect from "react-typewriter-effect";
-import { Fade } from "react-reveal";
+import { Fade, Rotate } from "react-reveal";
+
+import dhanunjayStamp from "../../Images/dhanunjay-stamp.png";
+import { Col, Row } from "react-bootstrap";
 
 const myRef = document.querySelector(".scrollable-div");
 
@@ -42,6 +45,34 @@ const Intro = () => {
             Just simple like that! I design and code beautifully simple things
             and i love what i do. Just simple like that!
           </p>
+        </Fade>
+
+        <img
+          src={dhanunjayStamp}
+          alt="Dhanunjayanaidu Maradana - A UI Designer & Frontend Developer"
+          className="dhanunjayStamp"
+        />
+
+        <Fade bottom duration={3000}>
+          <div className="experience">
+            <Row>
+              <Col>
+                <h6 className="display-2 greenColor">8.5 +</h6>
+                <p className="h6">
+                  YEARS OF <br />
+                  EXPERIENCE
+                </p>
+              </Col>
+              <Col>
+                <h6 className="display-2 greenColor">90 +</h6>
+                <p>
+                  PROJECTS COMPLETED ON
+                  <br />8 COUNTRIES
+                </p>
+              </Col>
+              <Col></Col>
+            </Row>
+          </div>
         </Fade>
       </section>
     </>

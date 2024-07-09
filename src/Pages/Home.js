@@ -15,15 +15,6 @@ import Testimonial from "./Testimonial/Testimonial";
 import Contact from "./Contact/Contact";
 import Sidebar from "./Sidebar/Sidebar";
 
-const image1 =
-  "https://fastly.picsum.photos/id/18/2500/1667.jpg?hmac=JR0Z_jRs9rssQHZJ4b7xKF82kOj8-4Ackq75D_9Wmz8";
-
-const image2 =
-  "https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68";
-
-const image3 =
-  "https://fastly.picsum.photos/id/27/3264/1836.jpg?hmac=p3BVIgKKQpHhfGRRCbsi2MCAzw8mWBCayBsKxxtWO8g";
-
 const Home = () => {
   return (
     <>
@@ -35,51 +26,15 @@ const Home = () => {
           </Col>
           <Col sm={12} md={9} lg={9} className="px-0">
             <div className="rightPanel" id="Home">
-              <Parallax
-                // bgImage={image1}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Intro />
-                </div>
-              </Parallax>
+              <Intro />
 
-              <Parallax
-                // bgImage={image2}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <About />
-                  </Fade>
-                </div>
-              </Parallax>
+              <About />
 
-              <Parallax
-                // bgImage={image3}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Resume />
-                  </Fade>
-                </div>
-              </Parallax>
+              <Resume />
 
-              <Parallax
-                // bgImage={image1}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Services />
-                  </Fade>
-                </div>
-              </Parallax>
+              <Fade bottom duration={3000}>
+                <Services />
+              </Fade>
 
               <Parallax
                 // bgImage={image2}
