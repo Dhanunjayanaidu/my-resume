@@ -32,57 +32,15 @@ const Home = () => {
 
               <Resume />
 
-              <Fade bottom duration={3000}>
-                <Services />
-              </Fade>
+              <Services />
 
-              <Parallax
-                // bgImage={image2}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Skills />
-                  </Fade>
-                </div>
-              </Parallax>
+              <Skills />
 
-              <Parallax
-                // bgImage={image3}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Portfolio />
-                  </Fade>
-                </div>
-              </Parallax>
+              <Portfolio />
 
-              <Parallax
-                // bgImage={image1}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Testimonial />
-                  </Fade>
-                </div>
-              </Parallax>
+              <Testimonial />
 
-              <Parallax
-                // bgImage={image1}
-                strength={-200}
-                blur={{ min: -30, max: 30 }}
-              >
-                <div className="innerBody">
-                  <Fade bottom duration={3000}>
-                    <Contact />
-                  </Fade>
-                </div>
-              </Parallax>
+              <Contact />
             </div>
           </Col>
         </Row>

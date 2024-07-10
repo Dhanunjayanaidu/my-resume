@@ -80,3 +80,46 @@ body {
   border-color: #28e98c !important;
   color: #1f1f1f !important;
 }
+
+.vertical-timeline-element-content {
+  box-shadow: 0 6px 0 #121212 !important;
+}
+.vertical-timeline.vertical-timeline--two-columns {
+  width: 100% !important;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+      width: 40px !important;
+      height: 40px !important;
+      left: Calc(50% - -10px) !important;
+      margin-left: -28px;
+      top: 10px;
+      box-shadow:  0 0 0 2px #28e98c,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05) !important;
+  }
+}
+
+.vertical-timeline-element-icon svg {
+  width: 18px !important;
+  height: 18px !important;
+  margin-left: -9px !important;
+  margin-top: -9px !important;
+  color: #28e98c;
+  
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline.vertical-timeline--two-columns:before {
+      left: 50%;
+      margin-left: 0px !important;
+  }
+}
+
+.vertical-timeline::before {
+  width: 4px !important;
+  background-color: rgb(50, 50, 50) !important;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+  color: #ffffff;
+}

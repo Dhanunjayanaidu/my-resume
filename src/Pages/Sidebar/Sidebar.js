@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sidebar.scss";
 import { Button } from "react-bootstrap";
-import { LuPhoneCall } from "react-icons/lu";
+import { HiOutlineMailOpen } from "react-icons/hi";
 const dhanunjayaNaiduMaradana =
   "https://avatars.githubusercontent.com/u/63259653?v=4";
 
@@ -22,7 +22,7 @@ const Sidebar = () => {
         <p className="mt-5 small">© 2024 All Rights Reserved</p>
         <div className="d-grid gap-2 mt-3">
           <Button variant="primary rounded-pill">
-            <LuPhoneCall /> Call & Hire me
+            <HiOutlineMailOpen /> Hire me
           </Button>
         </div>
       </section>

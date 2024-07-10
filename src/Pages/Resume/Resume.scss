@@ -2,4 +2,15 @@
   // background-color: violet;
   padding: 100px 160px 100px 80px;
   min-height: 100vh;
+  .vertical-timeline-element-content {
+    h5 {
+      font-size: medium;
+      color: #ffffff;
+      font-weight: 600;
+    }
+    p {
+      line-height: normal;
+      font-size: 0.75rem;
+    }
+  }
 }

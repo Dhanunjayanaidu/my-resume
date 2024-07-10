@@ -24,106 +24,74 @@ const Resume = () => {
         <VerticalTimeline layout="2-columns">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2011 - present"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{ background: "rgb(50 50 50)" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(50 50 50)" }}
+            date="Nov 2021 - present - 2 yrs 7 Mos"
+            iconStyle={{ background: "rgb(50 50 50)", color: "#fff" }}
             icon={<IoBriefcaseOutline />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Creative Director
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h5 className="">
+              As a Frontend Developer <br />& UI Designer
+            </h5>
+            <h6 className="greenColor">Wipro Technologies Ltd.</h6>
+            <h6 className="small">Hyderabad, Telangana, India</h6>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Wipro is a leading technology services and consulting company, and
+              announced that it has been recognized by Top Employers Institute
+              as a 2023 Top Employer in 11 countries...
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{ background: "rgb(50 50 50)" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(50 50 50)" }}
+            date="Jan 2021 - Nov 2021 - 9 mos"
+            iconStyle={{ background: "rgb(50 50 50)", color: "#fff" }}
             icon={<IoBriefcaseOutline />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
-            </h4>
+            <h5 className="">As a Frontend Developer (ReactJs)</h5>
+            <h6 className="greenColor">Zithara Technologies Pvt. Ltd.</h6>
+            <h6 className="small">Hyderabad, Telangana, India</h6>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              Zithara is an Indian Fintech company that enables customers to
+              live beyond cash, offline retail businesses (#ZiMerchants) to
+              effectively retain customers...
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{ background: "rgb(50 50 50)" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(50 50 50)" }}
+            date="Jun 2016 - Dec 2020 - 4 yrs 7 Mos"
+            iconStyle={{ background: "rgb(50 50 50)", color: "#fff" }}
             icon={<IoBriefcaseOutline />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
-            </h4>
-            <p>User Experience, Visual Design</p>
+            <h5 className="">As a Lead Web Developer</h5>
+            <h6 className="greenColor">Vitruvian 3D Solutions Pvt. Ltd.</h6>
+            <h6 className="small">Hyderabad, Telangana, India</h6>
+            <p>
+              Vitruvian 3D Solutions is a Computer Vision Software development
+              company with expertise in 3D Imaging & Visualization. We develop
+              products that leverage...
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{ background: "rgb(50 50 50)" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(50 50 50)" }}
+            date="Jul 2015 - Jun 2016 - 1 year"
+            iconStyle={{ background: "rgb(50 50 50)", color: "#fff" }}
             icon={<IoBriefcaseOutline />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
-            </h4>
-            <p>User Experience, Visual Design</p>
+            <h5 className="">As a Web Developer-2</h5>
+            <h6 className="greenColor">Vibrant 3D Innovations Pvt. Ltd.</h6>
+            <h6 className="small">Hyderabad, Telangana, India</h6>
+            <p>
+              Vibrant 3D Innovations Pvt Ltd, founded in 2015 is an emerging
+              Technology company based out of Hyderabad, India focused on 3D
+              Printing, 3D Scanning and 3D Imaging...
+            </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<IoBriefcaseOutline />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Content Marketing for Web, Mobile and Social Media
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Online Course
-            </h4>
-            <p>Strategy, Social Media</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<IoBriefcaseOutline />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Agile Development Scrum Master
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Certification
-            </h4>
-            <p>Creative Direction, User Experience, Visual Design</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<IoBriefcaseOutline />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Bachelor of Science in Interactive Digital Media Visual Imaging
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Bachelor Degree
-            </h4>
-            <p>Creative Direction, Visual Design</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-            icon={<IoBriefcaseOutline />}
-          />
         </VerticalTimeline>
       </section>
     </>

@@ -7,7 +7,7 @@ import { Fade, Rotate } from "react-reveal";
 import dhanunjayStamp from "../../Images/dhanunjay-stamp.png";
 import { Col, Row } from "react-bootstrap";
 
-const myRef = document.querySelector(".scrollable-div");
+// const myRef = document.querySelector(".scrollable-div");
 
 const Intro = () => {
   return (
@@ -30,11 +30,14 @@ const Intro = () => {
             <TypeWriterEffect
               startDelay={100}
               cursorColor="#28e98c"
-              multiText={["UI Designer.", "Frontend Developer."]}
+              multiText={[
+                "UI Designer.",
+                "Frontend Developer.",
+                "Graphic Designer.",
+              ]}
               multiTextDelay={1000}
               typeSpeed={100}
-              loop={2}
-              scrollArea={myRef}
+              multiTextLoop={true}
             />
           </h2>
         </Fade>
