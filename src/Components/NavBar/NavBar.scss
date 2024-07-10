@@ -17,8 +17,15 @@
       .nav-link {
         color: #999999;
 
-        :hover {
-          color: #28e98c;
+        .btn-primary {
+          background-color: transparent !important;
+          color: #999999 !important;
+          border: none !important;
+          padding: 0px;
+
+          :hover {
+            color: #28e98c;
+          }
         }
       }
     }

@@ -1,5 +1,12 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Nav,
+  Navbar,
+  OverlayTrigger,
+  Tooltip,
+} from "react-bootstrap";
 import "./NavBar.scss";
 import { IoHomeOutline } from "react-icons/io5";
 import { LuUser2 } from "react-icons/lu";
@@ -11,37 +18,111 @@ import { AiOutlineComment } from "react-icons/ai";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
 const NavBar = () => {
+  const homeTooltip = (props) => <Tooltip {...props}>Home</Tooltip>;
+  const aboutTooltip = (props) => <Tooltip {...props}>About</Tooltip>;
+  const resumeTooltip = (props) => <Tooltip {...props}>Resume</Tooltip>;
+  const servicesTooltip = (props) => <Tooltip {...props}>Services</Tooltip>;
+  const skillsTooltip = (props) => <Tooltip {...props}>Skills</Tooltip>;
+  const portfolioTooltip = (props) => <Tooltip {...props}>Portfolio</Tooltip>;
+  const testimonialsTooltip = (props) => (
+    <Tooltip {...props}>Testimonials</Tooltip>
+  );
+  const contactTooltip = (props) => <Tooltip {...props}>Contact</Tooltip>;
+
   return (
     <>
       <Navbar expand="lg" className="">
         <Container>
-          {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#intro">
-                <IoHomeOutline />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={homeTooltip}
+                >
+                  <Button variant="primary">
+                    <IoHomeOutline />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#About">
-                <LuUser2 />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={aboutTooltip}
+                >
+                  <Button variant="primary">
+                    <LuUser2 />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#Resume">
-                <IoBriefcaseOutline />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={resumeTooltip}
+                >
+                  <Button variant="primary">
+                    <IoBriefcaseOutline />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#Services">
-                <LiaStreamSolid />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={servicesTooltip}
+                >
+                  <Button variant="primary">
+                    <LiaStreamSolid />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#Skills">
-                <LuShapes />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={skillsTooltip}
+                >
+                  <Button variant="primary">
+                    <LuShapes />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#Portfolio">
-                <IoGridOutline />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={portfolioTooltip}
+                >
+                  <Button variant="primary">
+                    <IoGridOutline />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#Testimonial">
-                <AiOutlineComment />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={testimonialsTooltip}
+                >
+                  <Button variant="primary">
+                    <AiOutlineComment />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
               <Nav.Link href="#Contact">
-                <HiOutlineMailOpen />
+                <OverlayTrigger
+                  placement="left"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={contactTooltip}
+                >
+                  <Button variant="primary">
+                    <HiOutlineMailOpen />
+                  </Button>
+                </OverlayTrigger>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

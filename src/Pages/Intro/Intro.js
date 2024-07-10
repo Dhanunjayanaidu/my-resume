@@ -31,12 +31,12 @@ const Intro = () => {
               startDelay={100}
               cursorColor="#28e98c"
               multiText={[
-                "UI Designer.",
                 "Frontend Developer.",
+                "UI Designer.",
                 "Graphic Designer.",
               ]}
-              multiTextDelay={1000}
-              typeSpeed={100}
+              multiTextDelay={2000}
+              typeSpeed={200}
               multiTextLoop={true}
             />
           </h2>

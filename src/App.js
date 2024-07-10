@@ -6,8 +6,18 @@ import Home from "./Pages/Home";
 import Courses from "./Pages/Courses";
 import Search from "./Components/Search";
 import List from "./Components/List";
+// import { useEffect } from "react";
 
 function App() {
+  // useEffect(() => {
+  //   const handleContextmenu = (e) => {
+  //     e.preventDefault();
+  //   };
+  //   document.addEventListener("contextmenu", handleContextmenu);
+  //   return function cleanup() {
+  //     document.removeEventListener("contextmenu", handleContextmenu);
+  //   };
+  // }, []);
   return (
     <div className="">
       <Router>

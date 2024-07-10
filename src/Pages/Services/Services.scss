@@ -1,5 +1,20 @@
 .Services {
   // background-color: blue;
-  padding: 100px 160px 100px 80px;
+  padding: 50px 160px 100px 80px;
   min-height: 100vh;
+
+  .mainTitle {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+
+  .card {
+    margin-bottom: 1.5rem;
+    background-color: rgb(50, 50, 50);
+    color: #ffffff;
+  }
 }
