@@ -40,50 +40,80 @@ const Skills = () => {
               <Fade bottom duration={3000}>
                 <FaHtml5 className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>HTML 5</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <IoLogoCss3 className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>CSS 3</h6>
               </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <FaBootstrap className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Bootstrap</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <RiTailwindCssFill className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Tailwind</h6>
               </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <IoLogoJavascript className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>JavaScript</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <IoLogoReact className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>React Js</h6>
               </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <SiRedux className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Redux</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <FaSass className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>SASS</h6>
               </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <FaGitAlt className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Git</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <FaGithub className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Github Pages</h6>
               </Fade>
             </Col>
           </Row>
@@ -100,30 +130,40 @@ const Skills = () => {
               <Fade bottom duration={3000}>
                 <FaFigma className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Figma</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <SiAdobexd className="logo" />
               </Fade>
-            </Col>
-            {/* <Col>
               <Fade bottom duration={3000}>
-                <SiCanva className="logo" />
+                <h6>Adobe XD</h6>
               </Fade>
-            </Col> */}
+            </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <SiAdobephotoshop className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Photoshop</h6>
               </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <SiAdobeillustrator className="logo" />
               </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Illustrator</h6>
+              </Fade>
             </Col>
             <Col>
               <Fade bottom duration={3000}>
                 <SiCoreldraw className="logo" />
+              </Fade>
+              <Fade bottom duration={3000}>
+                <h6>Corel Draw</h6>
               </Fade>
             </Col>
           </Row>
