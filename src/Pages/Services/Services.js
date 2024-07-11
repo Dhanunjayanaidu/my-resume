@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.scss";
 import { LiaStreamSolid } from "react-icons/lia";
 import { Fade } from "react-reveal";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 const Services = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Services = () => {
 
         <Fade bottom duration={3000}>
           <h3 className="mainTitle">
-            What I <span className="fw-bold greenColor">can do</span>
+            What <span className="fw-bold greenColor">I do</span>
           </h3>
         </Fade>
 

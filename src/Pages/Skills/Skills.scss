@@ -1,5 +1,13 @@
 .Skills {
   //   background-color: yellowgreen;
-  padding: 100px 160px 100px 80px;
+  padding: 70px 160px 100px 80px;
   min-height: 100vh;
+
+  .skillLogos {
+    .logo {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      // color: #ffffff;
+    }
+  }
 }

@@ -43,10 +43,17 @@ const Intro = () => {
         </Fade>
 
         <Fade bottom duration={3000}>
-          <p className="mt-4">
+          <p className="mt-4 d-none">
             I design and code beautifully simple things and i love what i do.
             Just simple like that! I design and code beautifully simple things
             and i love what i do. Just simple like that!
+          </p>
+          <p className="mt-4">
+            As a frontend developer I can build the user interface and user
+            experience of a website or web application using HTML, CSS,
+            JavaScript, Bootstrap, Tailwind and frameworks like React & Angular.
+            I am responsible for bringing design concepts to life, ensuring
+            responsiveness, accessibility, and performance.
           </p>
         </Fade>
 
