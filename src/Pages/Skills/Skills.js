@@ -14,7 +14,6 @@ import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiAdobexd,
-  SiCanva,
   SiCoreldraw,
   SiRedux,
 } from "react-icons/si";
@@ -34,7 +33,7 @@ const Skills = () => {
             My <span className="greenColor">Programming</span> Skills
           </h3>
         </Fade>
-        <div className="my-4">
+        <div className="my-5">
           <Row className="skillLogos row-cols-5">
             <Col>
               <Fade bottom duration={3000}>
@@ -124,7 +123,7 @@ const Skills = () => {
             My <span className="greenColor">Designing</span> Skills
           </h3>
         </Fade>
-        <div className="mb-0 mt-4">
+        <div className="mb-0 mt-5">
           <Row className="skillLogos row-cols-5">
             <Col>
               <Fade bottom duration={3000}>

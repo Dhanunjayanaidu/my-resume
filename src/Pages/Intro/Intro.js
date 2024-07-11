@@ -2,7 +2,7 @@ import React from "react";
 import "./Intro.scss";
 import { IoHomeOutline } from "react-icons/io5";
 import TypeWriterEffect from "react-typewriter-effect";
-import { Fade, Rotate } from "react-reveal";
+import { Fade } from "react-reveal";
 
 import dhanunjayStamp from "../../Images/dhanunjay-stamp.png";
 import { Col, Row } from "react-bootstrap";
