@@ -51,3 +51,34 @@
     margin-top: 20%;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .Intro {
+    padding: 1.5rem;
+
+    .mainTitle {
+      font-size: calc(1.475rem + 2.7vw);
+    }
+
+    h2 {
+      font-size: calc(1rem + 2.7vw);
+
+      .react-typewriter-text-wrap {
+        .react-typewriter-text {
+          font-size: calc(1rem + 2.7vw);
+        }
+      }
+    }
+
+    .dhanunjayStamp {
+      width: 50%;
+      position: relative;
+      right: auto;
+      margin-top: 10%;
+    }
+
+    .experience {
+      margin-top: 10%;
+    }
+  }
+}

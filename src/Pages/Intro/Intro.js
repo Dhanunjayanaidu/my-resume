@@ -65,7 +65,7 @@ const Intro = () => {
 
         <Fade bottom duration={3000}>
           <div className="experience">
-            <Row>
+            <Row className="row-sm-cols-2">
               <Col>
                 <h6 className="display-2 greenColor">8.5 +</h6>
                 <p className="h6">

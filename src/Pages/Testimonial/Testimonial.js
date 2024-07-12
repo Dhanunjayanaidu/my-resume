@@ -36,7 +36,13 @@ const Testimonial = () => {
           </h3>
         </Fade>
         <div>
-          <OwlCarousel className="owl-theme" loop margin={10} nav {...option}>
+          <OwlCarousel
+            className="owl-theme text-center"
+            loop
+            margin={10}
+            nav
+            {...option}
+          >
             <div class="item">
               <h4>1 Slide</h4>
               <p>

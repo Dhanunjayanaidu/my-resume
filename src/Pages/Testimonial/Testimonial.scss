@@ -3,3 +3,9 @@
   padding: 100px 160px 100px 80px;
   min-height: 100vh;
 }
+
+@media screen and (max-width: 991px) {
+  .Testimonial {
+    padding: 1.5rem;
+  }
+}
