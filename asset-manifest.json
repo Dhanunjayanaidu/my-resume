@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.e8619734.css",
+    "main.css": "/my-resume/static/css/main.4810eaf5.css",
     "main.js": "/my-resume/static/js/main.96ba261b.js",
     "static/js/453.422fe807.chunk.js": "/my-resume/static/js/453.422fe807.chunk.js",
     "static/media/dhanunjay-stamp.png": "/my-resume/static/media/dhanunjay-stamp.a9b67266a959cd17b7bc.png",
     "static/media/dhanunjaya-naidu-maradana.jpeg": "/my-resume/static/media/dhanunjaya-naidu-maradana.db5a12f9b0f7224efbf0.jpeg",
     "index.html": "/my-resume/index.html",
-    "main.e8619734.css.map": "/my-resume/static/css/main.e8619734.css.map",
+    "main.4810eaf5.css.map": "/my-resume/static/css/main.4810eaf5.css.map",
     "main.96ba261b.js.map": "/my-resume/static/js/main.96ba261b.js.map",
     "453.422fe807.chunk.js.map": "/my-resume/static/js/453.422fe807.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8619734.css",
+    "static/css/main.4810eaf5.css",
     "static/js/main.96ba261b.js"
   ]
 }
