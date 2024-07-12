@@ -37,3 +37,9 @@
     color: #959595;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .Sidebar {
+    height: auto;
+  }
+}

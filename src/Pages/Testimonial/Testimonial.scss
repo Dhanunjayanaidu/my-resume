@@ -1,7 +1,54 @@
 .Testimonial {
-  //   background-color: darkmagenta;
-  padding: 100px 160px 100px 80px;
+  padding: 50px 200px 100px 80px;
   min-height: 100vh;
+
+  h3 {
+    margin-top: -1.25rem;
+  }
+  .item {
+    border: none;
+    background: rgb(50, 50, 50);
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 50px;
+    padding: 25px;
+
+    .userImage {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 50%;
+      margin: -30% auto 25px auto;
+      border: solid 4px #00ec94;
+      box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    }
+
+    h5 {
+      text-transform: uppercase;
+      font-size: medium;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 0px;
+    }
+    .organisation {
+      color: #00ec94;
+      font-size: small;
+      margin-bottom: 0px;
+    }
+    .rating {
+      color: yellow;
+    }
+    .content {
+      font-size: smaller;
+      color: white;
+
+      svg {
+        font-size: x-large;
+        color: #00ec94;
+        opacity: 0.5;
+        margin: 0 4px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {

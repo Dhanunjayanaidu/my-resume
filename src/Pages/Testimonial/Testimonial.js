@@ -5,6 +5,9 @@ import { Fade } from "react-reveal";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import dhanunjaya from "../../Images/dhanunjaya-naidu-maradana.jpeg";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt, FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 
 const option = {
   responsive: {
@@ -18,7 +21,7 @@ const option = {
       items: 3,
     },
     1170: {
-      items: 1,
+      items: 3,
     },
   },
 };
@@ -32,195 +35,99 @@ const Testimonial = () => {
         </h6>
         <Fade bottom duration={3000}>
           <h3 className="display-4 text-white">
-            Trusted by <span className="greenColor">many clients</span>
+            Trusted by <span className="greenColor">many people</span>
           </h3>
         </Fade>
         <div>
           <OwlCarousel
             className="owl-theme text-center"
             loop
-            margin={10}
+            margin={25}
             nav
             {...option}
           >
             <div class="item">
-              <h4>1 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <div className="userImage">
+                <img src={dhanunjaya} alt="user icon" />
+              </div>
+              <h5>Dhanunjaya Naidu</h5>
+              <p className="organisation">Wipro Technologies</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </p>
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
               </p>
             </div>
             <div class="item">
-              <h4>2 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <div className="userImage">
+                <img src={dhanunjaya} alt="user icon" />
+              </div>
+              <h5>Dhanunjaya Naidu</h5>
+              <p className="organisation">Wipro Technologies</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </p>
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
               </p>
             </div>
             <div class="item">
-              <h4>3 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <div className="userImage">
+                <img src={dhanunjaya} alt="user icon" />
+              </div>
+              <h5>Dhanunjaya Naidu</h5>
+              <p className="organisation">Wipro Technologies</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </p>
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
               </p>
             </div>
             <div class="item">
-              <h4>4 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <div className="userImage">
+                <img src={dhanunjaya} alt="user icon" />
+              </div>
+              <h5>Dhanunjaya Naidu</h5>
+              <p className="organisation">Wipro Technologies</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
               </p>
-            </div>
-            <div class="item">
-              <h4>5 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>6 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>7 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>8 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>9 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>10 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>11 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </div>
-            <div class="item">
-              <h4>12 Slide</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
               </p>
             </div>
           </OwlCarousel>
