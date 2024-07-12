@@ -54,5 +54,33 @@
 @media screen and (max-width: 991px) {
   .Testimonial {
     padding: 1.5rem;
+    min-height: auto;
+
+    h3 {
+      margin-top: -1.25rem;
+    }
+    .item {
+      margin-top: 90px;
+      height: auto;
+
+      h5 {
+        margin-top: 20%;
+      }
+
+      .rating {
+        margin-bottom: 10%;
+      }
+      .content {
+        font-size: smaller;
+        color: white;
+
+        svg {
+          font-size: x-large;
+          color: #00ec94;
+          opacity: 0.5;
+          margin: 0 4px;
+        }
+      }
+    }
   }
 }
