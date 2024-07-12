@@ -34,7 +34,7 @@ const Skills = () => {
           </h3>
         </Fade>
         <div className="my-5">
-          <Row className="skillLogos row-cols-5">
+          <Row className="skillLogos row-cols-3 row-cols-sm-3 row-cols-md-5">
             <Col>
               <Fade bottom duration={3000}>
                 <FaHtml5 className="logo" />
@@ -124,7 +124,7 @@ const Skills = () => {
           </h3>
         </Fade>
         <div className="mb-0 mt-5">
-          <Row className="skillLogos row-cols-5">
+          <Row className="skillLogos row-cols-3 row-cols-sm-3 row-cols-md-5">
             <Col>
               <Fade bottom duration={3000}>
                 <FaFigma className="logo" />

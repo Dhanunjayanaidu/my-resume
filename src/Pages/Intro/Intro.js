@@ -65,15 +65,15 @@ const Intro = () => {
 
         <Fade bottom duration={3000}>
           <div className="experience">
-            <Row className="row-sm-cols-2">
-              <Col>
+            <Row className="row-cols-2 row-sm-cols-2">
+              <Col xs={4}>
                 <h6 className="display-2 greenColor">8.5 +</h6>
                 <p className="h6">
                   YEARS OF <br />
                   EXPERIENCE
                 </p>
               </Col>
-              <Col>
+              <Col xs={8}>
                 <h6 className="display-2 greenColor">90 +</h6>
                 <p>
                   PROJECTS COMPLETED ON

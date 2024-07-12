@@ -18,7 +18,7 @@ const Services = () => {
         </Fade>
 
         <section>
-          <Row className="row-cols-2">
+          <Row className="row-cols-1 row-cols-sm-1 row-cols-md-2">
             <Col>
               <Fade bottom duration={3000}>
                 <Card>

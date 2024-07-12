@@ -22,5 +22,16 @@
 @media screen and (max-width: 991px) {
   .Skills {
     padding: 1.5rem;
+
+    .skillLogos {
+      .col {
+        .logo {
+          font-size: 5rem;
+        }
+        h6 {
+          margin-bottom: 3rem;
+        }
+      }
+    }
   }
 }

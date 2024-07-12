@@ -99,6 +99,11 @@ body {
       box-shadow:  0 0 0 2px #28e98c,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05) !important;
   }
 }
+@media screen and (max-width: 991px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+    box-shadow:  0 0 0 2px #28e98c,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05) !important;
+  }
+}
 
 .vertical-timeline-element-icon svg {
   width: 18px !important;
