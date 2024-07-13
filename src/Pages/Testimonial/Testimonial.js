@@ -5,9 +5,14 @@ import { Fade } from "react-reveal";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import dhanunjaya from "../../Images/dhanunjaya-naidu-maradana.jpeg";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt, FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
+
+import sandeepReddy from "../../Images/sandeep.jpeg";
+import teja from "../../Images/teja.jpeg";
+import murali from "../../Images/murali.jpeg";
+import jagadeesh from "../../Images/jagadeesh.jpeg";
+import dhanunjaya from "../../Images/dhanunjaya-naidu-maradana.jpeg";
 
 const option = {
   responsive: {
@@ -48,10 +53,74 @@ const Testimonial = () => {
           >
             <div class="item">
               <div className="userImage">
-                <img src={dhanunjaya} alt="user icon" />
+                <img src={sandeepReddy} alt="user icon" />
               </div>
-              <h5>Dhanunjaya Naidu</h5>
+              <h5>Sandeep Reddy M</h5>
+              <p className="organisation">QUANT LEGALTECH INDIA</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </p>
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
+              </p>
+            </div>
+            <div class="item">
+              <div className="userImage">
+                <img src={teja} alt="user icon" />
+              </div>
+              <h5>Laxman Teja</h5>
               <p className="organisation">Wipro Technologies</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </p>
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
+              </p>
+            </div>
+
+            <div class="item">
+              <div className="userImage">
+                <img src={jagadeesh} alt="user icon" />
+              </div>
+              <h5>Jagadeesh Jagana</h5>
+              <p className="organisation">Global Logic india Ltd</p>
+              <p className="rating">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </p>
+              <p className="content">
+                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
+                experience has improved dramatically. Their design not only
+                looks amazing but has also increased our user engagement and
+                satisfaction
+                <FaQuoteRight />
+              </p>
+            </div>
+            <div class="item">
+              <div className="userImage">
+                <img src={murali} alt="user icon" />
+              </div>
+              <h5>Muralidhar Reddy</h5>
+              <p className="organisation">Skillsoft India Ltd.</p>
               <p className="rating">
                 <FaStar />
                 <FaStar />
@@ -71,50 +140,8 @@ const Testimonial = () => {
               <div className="userImage">
                 <img src={dhanunjaya} alt="user icon" />
               </div>
-              <h5>Dhanunjaya Naidu</h5>
-              <p className="organisation">Wipro Technologies</p>
-              <p className="rating">
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStarHalfAlt />
-              </p>
-              <p className="content">
-                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
-                experience has improved dramatically. Their design not only
-                looks amazing but has also increased our user engagement and
-                satisfaction
-                <FaQuoteRight />
-              </p>
-            </div>
-            <div class="item">
-              <div className="userImage">
-                <img src={dhanunjaya} alt="user icon" />
-              </div>
-              <h5>Dhanunjaya Naidu</h5>
-              <p className="organisation">Wipro Technologies</p>
-              <p className="rating">
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStarHalfAlt />
-              </p>
-              <p className="content">
-                <FaQuoteLeft /> Thanks to Dhanunjay, our website's user
-                experience has improved dramatically. Their design not only
-                looks amazing but has also increased our user engagement and
-                satisfaction
-                <FaQuoteRight />
-              </p>
-            </div>
-            <div class="item">
-              <div className="userImage">
-                <img src={dhanunjaya} alt="user icon" />
-              </div>
-              <h5>Dhanunjaya Naidu</h5>
-              <p className="organisation">Wipro Technologies</p>
+              <h5>Mujeeb Syed</h5>
+              <p className="organisation">LTI Mindtree Ltd.</p>
               <p className="rating">
                 <FaStar />
                 <FaStar />
