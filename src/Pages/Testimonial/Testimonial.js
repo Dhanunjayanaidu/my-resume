@@ -12,7 +12,7 @@ import sandeepReddy from "../../Images/sandeep.jpeg";
 import teja from "../../Images/teja.jpeg";
 import murali from "../../Images/murali.jpeg";
 import jagadeesh from "../../Images/jagadeesh.jpeg";
-import dhanunjaya from "../../Images/dhanunjaya-naidu-maradana.jpeg";
+import mujeeb from "../../Images/mujeeb.jpeg";
 
 const option = {
   responsive: {
@@ -138,10 +138,10 @@ const Testimonial = () => {
             </div>
             <div class="item">
               <div className="userImage">
-                <img src={dhanunjaya} alt="user icon" />
+                <img src={mujeeb} alt="user icon" />
               </div>
               <h5>Mujeeb Syed</h5>
-              <p className="organisation">LTI Mindtree Ltd.</p>
+              <p className="organisation">Legato Health Technologies</p>
               <p className="rating">
                 <FaStar />
                 <FaStar />
