@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import "./Contact.scss";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { Fade } from "react-reveal";
+import { Form } from "react-bootstrap";
 const Contact = () => {
   const form = useRef();
 
@@ -35,15 +36,43 @@ const Contact = () => {
           </h3>
         </Fade>
         <div>
-          <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
+          <Form ref={form} onSubmit={sendEmail}>
+            <Form.Group className="mb-3" controlId="">
+              <Form.Label>Full Name</Form.Label>
+              <Form.Control
+                type="text"
+                name="user_name"
+                placeholder="John Deo"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                name="user_email"
+                placeholder="your@email.com"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="">
+              <Form.Label>Example textarea</Form.Label>
+              <Form.Control
+                as="textarea"
+                name="message"
+                rows={5}
+                placeholder="Enter your message"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="">
+              <input class="btn btn-primary px-5" type="submit" value="Send" />
+            </Form.Group>
+            {/* <label>Name</label>
             <input type="text" name="user_name" />
             <label>Email</label>
             <input type="email" name="user_email" />
             <label>Message</label>
             <textarea name="message" />
-            <input type="submit" value="Send" />
-          </form>
+            <input type="submit" value="Send" /> */}
+          </Form>
         </div>
       </section>
     </>
