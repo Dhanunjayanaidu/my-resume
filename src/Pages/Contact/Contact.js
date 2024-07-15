@@ -1,15 +1,20 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.scss";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { Fade } from "react-reveal";
 import { Form } from "react-bootstrap";
+import {  Bounce, ToastContainer, toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+
 const Contact = () => {
   const form = useRef();
-
+  const [name,setName] = useState('')
+  const [email,setEmail] = useState('')
+  const [text,setText] = useState('')
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     emailjs
       .sendForm("service_abwtzud", "template_t8gtnxm", form.current, {
         publicKey: "kBDF81UqK-LxVpd4p",
@@ -17,15 +22,33 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          setEmail('')
+          setName('')
+          setText('')
+          toast.success('Email has been sent', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+            });
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setEmail('')
+          setName('')
+          setText('')
         }
       );
   };
 
   return (
     <>
+      <ToastContainer/>
       <section className="Contact" id="Contact">
         <h6 class="subtitle">
           <HiOutlineMailOpen /> Contact
@@ -43,6 +66,8 @@ const Contact = () => {
                 type="text"
                 name="user_name"
                 placeholder="John Deo"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -51,6 +76,8 @@ const Contact = () => {
                 type="email"
                 name="user_email"
                 placeholder="your@email.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="">
@@ -60,6 +87,8 @@ const Contact = () => {
                 name="message"
                 rows={5}
                 placeholder="Enter your message"
+                value={text}
+                onChange={(e) => setText(e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="">
