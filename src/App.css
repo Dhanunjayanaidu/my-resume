@@ -133,3 +133,14 @@ body {
 .no-right-click {
   pointer-events: none;
 }
+
+.btn-outline-primary {
+  border-color: #28e98c !important;
+  color: #28e98c !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #28e98c !important;
+  border-color: #28e98c !important;
+  color: #ffffff !important;
+}

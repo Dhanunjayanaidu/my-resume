@@ -16,6 +16,24 @@
     margin-bottom: 1.5rem;
     background-color: rgb(50, 50, 50);
     color: #ffffff;
+    border: solid 1px #28e98c;
+
+    .card-body {
+      height: 250px;
+      padding: 30px;
+
+      svg {
+        font-size: 2.5rem;
+        color: #28e98c;
+        margin-bottom: 1rem;
+      }
+
+      .card-title {
+        color: #28e98c;
+        font-weight: 300;
+        font-size: x-large;
+      }
+    }
   }
 }
 

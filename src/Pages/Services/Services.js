@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.scss";
 import { LiaStreamSolid } from "react-icons/lia";
+import { LuCode2 } from "react-icons/lu";
 import { Fade, Zoom } from "react-reveal";
 import { Button, Card, Col, Row } from "react-bootstrap";
 
@@ -108,7 +109,7 @@ const Services = () => {
           <Fade bottom duration={3000}>
             <Row>
               <Col className="my-3">
-                <Button variant="outline-primary" className="mx-2">
+                <Button variant="outline-primary" className="me-2">
                   All
                 </Button>
                 <Button variant="outline-primary" className="mx-2">
@@ -132,6 +133,7 @@ const Services = () => {
                     <Zoom duration={1500}>
                       <Card>
                         <Card.Body>
+                          <LuCode2 />
                           <Card.Title>{data.title}</Card.Title>
                           <Card.Text>
                             <p>{data.description}</p>
