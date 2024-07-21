@@ -32,7 +32,7 @@ const Intro = () => {
               cursorColor="#28e98c"
               multiText={[
                 "Frontend Developer.",
-                "UI Designer.",
+                "Web & Mobile UI Designer.",
                 "Graphic Designer.",
               ]}
               multiTextDelay={2000}
