@@ -33,7 +33,7 @@ const Contact = () => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "light",
+            theme: "colored",
             transition: Bounce,
           });
         },
@@ -69,6 +69,7 @@ const Contact = () => {
                   placeholder="John Deo"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
+                  required={true}
                 />
               </Form.Group>
             </Fade>
@@ -84,6 +85,7 @@ const Contact = () => {
                   placeholder="your@email.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  required={true}
                 />
               </Form.Group>
             </Fade>
@@ -97,6 +99,7 @@ const Contact = () => {
                   placeholder="Enter your message"
                   value={text}
                   onChange={(e) => setText(e.target.value)}
+                  // required={true}
                 />
               </Form.Group>
             </Fade>

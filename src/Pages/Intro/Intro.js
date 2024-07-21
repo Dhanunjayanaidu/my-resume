@@ -36,7 +36,7 @@ const Intro = () => {
                 "Graphic Designer.",
               ]}
               multiTextDelay={2000}
-              typeSpeed={200}
+              typeSpeed={50}
               multiTextLoop={true}
             />
           </h2>
