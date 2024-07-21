@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.scss";
 import { LiaStreamSolid } from "react-icons/lia";
-import { Fade } from "react-reveal";
+import { Fade, Zoom } from "react-reveal";
 import { Button, Card, Col, Row } from "react-bootstrap";
 
 const servicesData = [
@@ -21,9 +21,9 @@ const servicesData = [
   },
   {
     id: 3,
-    title: "UI Content",
+    title: "Brand Identity Design",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Creating logos, color schemes, typography, and overall visual branding for companies or products.",
     category: "ui_design",
   },
   {
@@ -42,10 +42,10 @@ const servicesData = [
   },
   {
     id: 6,
-    title: "UI Content",
+    title: "Print Designs",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    category: "ui_design",
+      "Designing brochures, posters, flyers, business cards, magazine layouts, book covers, packaging, and other printed materials.",
+    category: "Graphics",
   },
   {
     id: 7,
@@ -63,10 +63,10 @@ const servicesData = [
   },
   {
     id: 9,
-    title: "UI Content",
+    title: "Advertising Designs",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    category: "ui_design",
+      "Creating visuals for advertisements, including banner ads, Billbords designs, Paper ads, to promote products, services, or events.",
+    category: "Graphics",
   },
   {
     id: 10,
@@ -74,6 +74,20 @@ const servicesData = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     category: "ui_design",
+  },
+  {
+    id: 11,
+    title: "UI Content",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    category: "ui_design",
+  },
+  {
+    id: 12,
+    title: "Packaging Design",
+    description:
+      "Designing the packaging for products to ensure they are visually appealing and convey the necessary information.",
+    category: "Graphics",
   },
 ];
 const Services = () => {
@@ -115,7 +129,7 @@ const Services = () => {
                 <>
                   {/* <h3>ID Number : {data.id}</h3> */}
                   <Col>
-                    <Fade bottom duration={3000}>
+                    <Zoom duration={1500}>
                       <Card>
                         <Card.Body>
                           <Card.Title>{data.title}</Card.Title>
@@ -127,7 +141,7 @@ const Services = () => {
                           </Card.Text>
                         </Card.Body>
                       </Card>
-                    </Fade>
+                    </Zoom>
                   </Col>
                 </>
               );
