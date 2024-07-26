@@ -5,7 +5,7 @@ import TypeWriterEffect from "react-typewriter-effect";
 import { Fade } from "react-reveal";
 
 import dhanunjayStamp from "../../Images/dhanunjay-stamp.png";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 // const myRef = document.querySelector(".scrollable-div");
 
@@ -58,10 +58,15 @@ const Intro = () => {
         </Fade>
 
         <Fade bottom duration={3000}>
-          <Button className="mt-4 rounded-pill" variant="outline-primary">
+          <a
+            className="mt-4 rounded-pill btn btn-outline-primary"
+            href="../Images/DhanunjayaNaidu_UI&UX_Designer.pdf"
+            target="_blank"
+            role="button"
+          >
             Download CV
             <IoCloudDownloadOutline className="ms-2" />
-          </Button>
+          </a>
         </Fade>
 
         <img
