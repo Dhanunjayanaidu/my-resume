@@ -1,11 +1,11 @@
 import React from "react";
 import "./Intro.scss";
-import { IoHomeOutline } from "react-icons/io5";
+import { IoHomeOutline, IoCloudDownloadOutline } from "react-icons/io5";
 import TypeWriterEffect from "react-typewriter-effect";
 import { Fade } from "react-reveal";
 
 import dhanunjayStamp from "../../Images/dhanunjay-stamp.png";
-import { Col, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 
 // const myRef = document.querySelector(".scrollable-div");
 
@@ -55,6 +55,13 @@ const Intro = () => {
             I am responsible for bringing design concepts to life, ensuring
             responsiveness, accessibility, and performance.
           </p>
+        </Fade>
+
+        <Fade bottom duration={3000}>
+          <Button className="mt-4 rounded-pill" variant="outline-primary">
+            Download CV
+            <IoCloudDownloadOutline className="ms-2" />
+          </Button>
         </Fade>
 
         <img
