@@ -8,16 +8,16 @@ import { Button, Card, Col, Row } from "react-bootstrap";
 const servicesData = [
   {
     id: 1,
-    title: "Frontend Content",
+    title: "ReactJs Applications",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "React can be used to develop single-page web applications, or server-rendered applications with frameworks like Next.js.",
     category: "frontend",
   },
   {
     id: 2,
-    title: "Graphic Content",
+    title: "Mobile App Designs",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "I can create mobile app designs using Figma, Adobe XD. And mobile UI is the graphical and usually touch-sensitive display.",
     category: "graphic",
   },
   {
@@ -29,16 +29,16 @@ const servicesData = [
   },
   {
     id: 4,
-    title: "Frontend Content",
+    title: "Angular Js Applications",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Angular is a TypeScript-based free and open-source single-page web application framework.",
     category: "frontend",
   },
   {
     id: 5,
-    title: "Graphic Content",
+    title: ".DotNet Applications",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "The .NET platform is a free and open-source and the project is mainly developed by Microsoft employees",
     category: "graphic",
   },
   {
@@ -50,16 +50,16 @@ const servicesData = [
   },
   {
     id: 7,
-    title: "Frontend Content",
+    title: "Wireframe Designs",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "A wireframe is a representation of a web page, app interface, or product layout. It's a low-fidelity, functional sketch.",
     category: "frontend",
   },
   {
     id: 8,
-    title: "Graphic Content",
+    title: "AntDesign Framework",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Ant Design is a React UI development system that empowers developers to build modern products with flexibility.",
     category: "graphic",
   },
   {
@@ -71,16 +71,16 @@ const servicesData = [
   },
   {
     id: 10,
-    title: "UI Content",
+    title: "Bootstrap Framework",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
     category: "ui_design",
   },
   {
     id: 11,
-    title: "UI Content",
+    title: "Tailwind CSS",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
     category: "ui_design",
   },
   {
@@ -106,25 +106,31 @@ const Services = () => {
         </Fade>
 
         <section>
-          <Fade bottom duration={3000}>
-            <Row>
-              <Col className="my-3">
+          <Row className="">
+            <Col className="my-3 filterSet">
+              <Zoom duration={1500}>
                 <Button variant="outline-primary" className="me-2">
                   All
                 </Button>
+              </Zoom>
+              <Zoom duration={1500}>
                 <Button variant="outline-primary" className="mx-2">
                   Frontend Development
                 </Button>
+              </Zoom>
+              <Zoom duration={1500}>
                 <Button variant="outline-primary" className="mx-2">
                   Web & Mobile Design
                 </Button>
+              </Zoom>
+              <Zoom duration={1500}>
                 <Button variant="outline-primary" className="mx-2">
                   Graphic Design
                 </Button>
-              </Col>
-            </Row>
-          </Fade>
-          <Row className="row-cols-1 row-cols-sm-1 row-cols-md-2">
+              </Zoom>
+            </Col>
+          </Row>
+          <Row className="row-cols-1 row-cols-sm-1 row-cols-md-3">
             {servicesData.map(function (data) {
               return (
                 <>
@@ -137,9 +143,9 @@ const Services = () => {
                           <Card.Title>{data.title}</Card.Title>
                           <Card.Text>
                             <p>{data.description}</p>
-                            <span className="badge bg-secondary">
+                            {/* <span className="badge bg-secondary">
                               {data.category}
-                            </span>
+                            </span> */}
                           </Card.Text>
                         </Card.Body>
                       </Card>
