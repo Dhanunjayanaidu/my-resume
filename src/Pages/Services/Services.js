@@ -1,9 +1,21 @@
 import React from "react";
-import "./Services.scss";
-import { LiaStreamSolid } from "react-icons/lia";
-import { LuCode2 } from "react-icons/lu";
 import { Fade, Zoom } from "react-reveal";
 import { Button, Card, Col, Row } from "react-bootstrap";
+import "./Services.scss";
+
+import { LiaStreamSolid } from "react-icons/lia";
+import { FaReact } from "react-icons/fa";
+import { IoLogoBuffer } from "react-icons/io";
+import { IoLogoAngular } from "react-icons/io";
+import { DiDotnet } from "react-icons/di";
+import { FaFigma } from "react-icons/fa";
+import { AiOutlineAntDesign } from "react-icons/ai";
+import { AiOutlineNotification } from "react-icons/ai";
+import { FaBootstrap } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { LuPackageOpen } from "react-icons/lu";
+import { SiAdobeindesign } from "react-icons/si";
+import { FaMobileScreen } from "react-icons/fa6";
 
 const servicesData = [
   {
@@ -12,6 +24,7 @@ const servicesData = [
     description:
       "React can be used to develop single-page web applications, or server-rendered applications with frameworks like Next.js.",
     category: "frontend",
+    // render: (icon) => <FaReact />,
   },
   {
     id: 2,
@@ -19,6 +32,7 @@ const servicesData = [
     description:
       "I can create mobile app designs using Figma, Adobe XD. And mobile UI is the graphical and usually touch-sensitive display.",
     category: "graphic",
+    // render: (icon) => <FaReact />,
   },
   {
     id: 3,
@@ -139,7 +153,33 @@ const Services = () => {
                     <Zoom duration={1500}>
                       <Card>
                         <Card.Body>
-                          <LuCode2 />
+                          {data.id === 1 ? (
+                            <FaReact />
+                          ) : data.id === 2 ? (
+                            <FaMobileScreen />
+                          ) : data.id === 3 ? (
+                            <IoLogoBuffer />
+                          ) : data.id === 4 ? (
+                            <IoLogoAngular />
+                          ) : data.id === 5 ? (
+                            <DiDotnet />
+                          ) : data.id === 6 ? (
+                            <SiAdobeindesign />
+                          ) : data.id === 7 ? (
+                            <FaFigma />
+                          ) : data.id === 8 ? (
+                            <AiOutlineAntDesign />
+                          ) : data.id === 9 ? (
+                            <AiOutlineNotification />
+                          ) : data.id === 10 ? (
+                            <FaBootstrap />
+                          ) : data.id === 11 ? (
+                            <SiTailwindcss />
+                          ) : data.id === 12 ? (
+                            <LuPackageOpen />
+                          ) : (
+                            <IoLogoBuffer />
+                          )}
                           <Card.Title>{data.title}</Card.Title>
                           <Card.Text>
                             <p>{data.description}</p>
